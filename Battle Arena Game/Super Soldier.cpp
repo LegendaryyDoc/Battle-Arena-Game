@@ -1,6 +1,3 @@
-#include <iostream>
-#include <string>
-#include <ctime>
 #include "Super Soldier.h"
 
 int superSoldier::attack()

@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Grunt.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Super Soldier.cpp" />
+    <ClCompile Include="Tank.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grunt.h" />
+    <ClInclude Include="Super Soldier.h" />
+    <ClInclude Include="Tank.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
