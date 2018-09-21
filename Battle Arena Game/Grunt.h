@@ -6,10 +6,14 @@ public:
 
 	int armor = 0;
 	int health = 10;
-	int attack(int I, grunt * team, size_t teamLimit);
+	bool attack(int i, grunt * team, size_t teamLimit);
 	int retalliate();
+	void status(size_t teamSize, grunt * team);
 
-	void takeDamage(int damage);
+	int takeDamage(int damage);
 
 	bool isAlive();
+
+private:
+	bool gruntAlive(grunt *teamArr, size_t arrSize);
 };
