@@ -83,7 +83,6 @@ int main()
 			outputColor("\nTeam B", BLUE);
 
 			bTeam[10].status(bSize, bTeam); // printing out Team B health
-			system("pause");
 		}
 
 	}
@@ -101,7 +100,12 @@ int main()
 		system("pause");
 		return 0;
 	}
+	if (!gruntAlive(aTeam, aSize) && !gruntAlive(bTeam, bSize))
+	{
+		std::cout << "The war was brutal and neither team came out alive!" << std::endl;
+	}
 	return 0;
+
 }
 void outputColor(std::string myText, int col)
 {
