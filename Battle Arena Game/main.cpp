@@ -103,6 +103,8 @@ int main()
 	if (!gruntAlive(aTeam, aSize) && !gruntAlive(bTeam, bSize))
 	{
 		std::cout << "The war was brutal and neither team came out alive!" << std::endl;
+		system("pause");
+		return 0;
 	}
 	return 0;
 
